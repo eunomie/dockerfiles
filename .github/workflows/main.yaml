@@ -16,6 +16,7 @@ jobs:
       matrix:
         directory:
           - htop
+          - serve
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
