@@ -30,4 +30,4 @@ jobs:
           context: ${{ matrix.directory }}
           build-args: GIT_REF=${{ env.GITHUB_SHA }}
           push: ${{ github.event_name == 'push' }}
-          tag: eunomie/${{ matrix.directory }}:latest
+          tags: eunomie/${{ matrix.directory }}:latest
