@@ -17,6 +17,7 @@ jobs:
         directory:
           - htop
           - serve
+          - driftctl
     steps:
       - name: Check out the repo
         uses: actions/checkout@v2
